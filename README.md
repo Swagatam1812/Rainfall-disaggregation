@@ -15,19 +15,67 @@ Inspired by logic from content-based image retrieval (CBIR), the model leverages
 ## Repo Structure
 
 ```
-rainfall-disaggregation/
-├── codes/
-│   └── model_final.ipynb     # Final pipeline
-├── shaping/
-│   └── Shaping Excel files.ipynb     # Preprocessing logic
-├── results/
-│   └── plots/                        # Visualization & benchmark results
+Rainfall-disaggregation/
+├── Code/
+│   ├── main_model.ipynb
+│   ├── Result_analysis.ipynb
+│   └── Shaping Excel files.ipynb
+│
 ├── data/
-│   └── .gitkeep                      # Placeholder (no data shared)
+│   ├── .gitkeep
+│   └── DATA_SECTION.md
+│
+├── results/
+│   ├── chennai/
+│   │   ├── %0 values_chennai.png
+│   │   ├── IDF_chennai_compare.png
+│   │   ├── IDF_chennai_generated.png
+│   │   ├── IDF_chennai_given.png
+│   │   ├── event duration stats_chennai.png
+│   │   ├── event volume stats_chennai.png
+│   │   ├── qq plot of trf_chennai.png
+│   │   └── qq plots_chennai.png
+│   │
+│   ├── delhi/
+│   │   ├── %0 values_delhi.png
+│   │   ├── IDF_delhi_compare.png
+│   │   ├── IDF_delhi_generated.png
+│   │   ├── IDF_delhi_given.png
+│   │   ├── event duration stats_delhi.png
+│   │   ├── event volume stats_delhi.png
+│   │   ├── qq plot of trf_delhi.png
+│   │   └── qq plots_delhi.png
+│   │
+│   ├── kolkata/
+│   │   ├── %0 values_kolkata.png
+│   │   ├── IDF_kolkata_compare.png
+│   │   ├── IDF_kolkata_generated.png
+│   │   ├── IDF_kolkata_given.png
+│   │   ├── event duration stats_kolkata.png
+│   │   ├── event volume stats_kolkata.png
+│   │   ├── qq plot of trf_kolkata.png
+│   │   └── qq plots_kolkata.png
+│   │
+│   ├── mumbai/
+│   │   ├── %0 values_mumbai.png
+│   │   ├── IDF_mumbai_compare.png
+│   │   ├── IDF_mumbai_generated.png
+│   │   ├── IDF_mumbai_given.png
+│   │   ├── event duration stats_mumbai.png
+│   │   ├── event volume stats_mumbai.png
+│   │   ├── qq plot of trf_mumbai.png
+│   │   └── qq plots_mumbai.png
+│   │
+│   ├── %0 values.png
+│   ├── event duration.png
+│   ├── event volume.png
+│   └── idf plots.png
+│
+├── .gitignore
 ├── LICENSE
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
+
 ```
 
 ## Study Scope

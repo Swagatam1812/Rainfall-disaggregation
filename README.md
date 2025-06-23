@@ -17,11 +17,11 @@ Inspired by logic from content-based image retrieval (CBIR), the model leverages
 ```
 Rainfall-disaggregation/
 ├── Code/
-│   ├── main_model.ipynb
+│   ├── Cluster space, Quarry & Bias correction.ipynb
 │   ├── Result_analysis.ipynb
 │   └── Shaping Excel files.ipynb
-│   └── Shaping Excel files.ipynb
-│   └── Shaping Excel files.ipynb
+│   └── deep learning.ipynb
+│   └── main_model.ipynb
 │
 ├── data/
 │   ├── .gitkeep
